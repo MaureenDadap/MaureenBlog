@@ -44,13 +44,21 @@ body {
     z-index: 3;
     width: 75%;
     background-color: blue;
-    box-shadow: inset 22px 0px 11px -6px rgba(0,0,0,0.55);
     position: relative;
+}
+
+@media only screen and (min-width:621px) {
+    #right {
+        box-shadow: inset 22px 0px 11px -6px rgba(0,0,0,0.55);
+    }
 }
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
     #left, #right {
-      width:100%;
+        width:100%;
+    }
+    #right {
+        box-shadow: inset 0px 22px 11px -6px rgba(0,0,0,0.55);
     }
 }
