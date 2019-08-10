@@ -1,6 +1,6 @@
-html{
+html {
     height: 100%;
-}   
+}
 
 * {
     box-sizing: border-box;
@@ -12,18 +12,15 @@ body {
 }
 
 .header {
-    background-color: #444444;
     text-align: center;
 }
 
 #top {
     padding: 15px;
-    z-index: 2;
 }
 
 #bottom {
-    padding-bottom: 10px;
-    z-index: 1;
+    padding: 20px;
     border-bottom-right-radius: 40% 80%;
 }
 
@@ -35,30 +32,29 @@ body {
 }
 
 #left {
-    z-index: 2;
     width: 25%;
     background-color: white;
 }
 
 #right {
-    z-index: 3;
     width: 75%;
+    height: 100vh;
     background-color: blue;
-    position: relative;
 }
 
 @media only screen and (min-width:621px) {
     #right {
-        box-shadow: inset 22px 0px 11px -6px rgba(0,0,0,0.55);
+        box-shadow: inset 22px 0px 11px -6px rgba(0, 0, 0, 0.55);
     }
 }
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
-    #left, #right {
-        width:100%;
+    #left,
+    #right {
+        width: 100%;
     }
     #right {
-        box-shadow: inset 0px 22px 11px -6px rgba(0,0,0,0.55);
+        box-shadow: inset 0px 22px 11px -6px rgba(0, 0, 0, 0.55);
     }
 }
