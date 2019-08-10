@@ -170,15 +170,16 @@ ul {
 
 .right_container {
     margin-left: 5vw;
-    margin-top: -15vw;
+    margin-top: -19vw;
+    margin-right: 10px;
 }
 
 #right_container_header {
-    margin-bottom: -15vw;
+    margin-bottom: -22vw;
 }
 
 #week_header {
-    font-size: 15vw;
+    font-size: 18vw;
     font-family: TimothyRegular;
     color: white;
 }
@@ -186,7 +187,7 @@ ul {
 .week_body {
     padding: 20px;
     font-family: LemonYellowSun;
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: normal;
     color: #303030;
 }
