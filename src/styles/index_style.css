@@ -1,6 +1,16 @@
 @font-face {
-    font-family: 'TimothyRegular';
-    src: url(src/styles/fonts/Timothy-Regular.ttf);
+    font-family: "TimothyRegular";
+    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/Timothy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SkinnyRegular";
+    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/Skinny-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WhateverItTakes";
+    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/whatever it takes.ttf") format("truetype");
 }
 
 html {
@@ -53,10 +63,10 @@ body {
     padding: 2px;
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 24px;
     cursor: pointer;
     display: inline-block;
-    font-family: TimothyRegular;
+    font-family: "SkinnyRegular";
 }
 
 @media only screen and (min-width:621px) {
