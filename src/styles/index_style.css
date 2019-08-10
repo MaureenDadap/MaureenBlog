@@ -61,6 +61,7 @@ body {
     width: 75%;
     height: 100vh;
     background-color: #f6d365;
+    overflow-y: auto;
 }
 
 .btn {
@@ -167,6 +168,29 @@ ul {
     color: white;
 }
 
+.right_container {
+    margin-left: 5vw;
+    margin-top: -15vw;
+}
+
+#right_container_header {
+    margin-bottom: -15vw;
+}
+
+#week_header {
+    font-size: 15vw;
+    font-family: TimothyRegular;
+    color: white;
+}
+
+.week_body {
+    padding: 20px;
+    font-family: LemonYellowSun;
+    font-size: 3vw;
+    line-height: normal;
+    color: #303030;
+}
+
 @media only screen and (min-width:621px) {
     #right {
         box-shadow: inset 22px 0px 11px -20px rgba(0, 0, 0, 0.55);
@@ -189,5 +213,13 @@ ul {
         margin-right: 8px;
         margin-left: 8px;
         font-size: 25px;
+    }
+    .right_container {
+        margin-left: 0vw;
+        margin-top: -28vw;
+    }
+    #week_header {
+        text-align: center;
+        font-size: 30vw;
     }
 }
