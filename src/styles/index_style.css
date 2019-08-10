@@ -179,8 +179,10 @@ ul {
     #right {
         width: 100%;
     }
+    #left {
+        height: max-content;
+    }
     #right {
         box-shadow: inset 0px 22px 11px -20px rgba(0, 0, 0, 0.55);
-        height: max-content;
     }
 }
