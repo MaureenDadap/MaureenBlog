@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: "LemonYellowSun";
+    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/DK Lemon Yellow Sun.otf") format("opentype");
+}
+
+@font-face {
     font-family: "WhateverItTakesBold";
     src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
 }
@@ -64,16 +69,34 @@ body {
     padding: 2px;
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 24px;
+    font-size: 30px;
     cursor: pointer;
     display: inline-block;
-    font-family: "WhateverItTakesBold";
+    font-family: "TimothyRegular";
     color: #444444;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.btn:hover {
+    color: #8d8d8d;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: "SkinnyRegular";
+    margin-left: -40px;
+    font-size: 30px;
+}
+
+li {
+    padding: -2px;
 }
 
 @media only screen and (min-width:621px) {
