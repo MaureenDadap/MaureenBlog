@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'TimothyRegular';
+    src: url(src/styles/fonts/Timothy-Regular.ttf);
+}
+
 html {
     height: 100%;
 }
@@ -39,17 +44,19 @@ body {
 #right {
     width: 75%;
     height: 100vh;
-    background-color: blue;
+    background-color: #f6d365;
 }
 
 .btn {
     border: none;
     background-color: inherit;
     padding: 2px;
-    margin-right: 28px;
+    margin-right: 20px;
+    margin-left: 20px;
     font-size: 14px;
     cursor: pointer;
     display: inline-block;
+    font-family: TimothyRegular;
 }
 
 @media only screen and (min-width:621px) {
