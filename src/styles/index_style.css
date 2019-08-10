@@ -1,13 +1,8 @@
-html {
-    height: 100%;
-}
-
 body {
-    height: 100%;   
     margin: 0;
 }
 
-#header {
+.header {
     background-color: #444444;
     padding: 15px;
     text-align: center;
