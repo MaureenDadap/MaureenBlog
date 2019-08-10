@@ -60,7 +60,7 @@ body {
 #right {
     width: 75%;
     height: 100vh;
-    background-color: #f6d365;
+    background-color: #f7be16;
 }
 
 .btn {
@@ -148,11 +148,6 @@ ul {
 }
 
 #list_text_container_school {
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-#list_text_container_school:hover {
     background-color: #f7be16;
     color: white;
 }
