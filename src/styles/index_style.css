@@ -79,7 +79,7 @@ body {
 }
 
 .btn:hover {
-    color: #8d8d8d;
+    color: white;
 }
 
 a {
@@ -90,13 +90,81 @@ a {
 ul {
     list-style-type: none;
     text-align: center;
-    font-family: "SkinnyRegular";
+    font-family: "LemonYellowSun";
     margin-left: -40px;
-    font-size: 30px;
+    font-size: 20px;
+    color: #444444;
 }
 
-li {
-    padding: -2px;
+.list_container {
+    display: flex;
+}
+
+.list_text_container {
+    width: 95%;
+    border-bottom-style: dotted;
+    border-width: 2px;
+    border-color: #8d8d8d96;
+}
+
+.color_box {
+    flex-grow: 1;
+}
+
+#color_box_family {
+    background-color: #ffb3b3;
+}
+
+#color_box_hobbies {
+    background-color: #e15249;
+}
+
+#color_box_school {
+    background-color: #f7be16;
+}
+
+#color_box_friends {
+    background-color: #00818a;
+}
+
+#list_text_container_family {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#list_text_container_family:hover {
+    background-color: #ffb3b3;
+    color: white;
+}
+
+#list_text_container_hobbies {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#list_text_container_hobbies:hover {
+    background-color: #e15249;
+    color: white;
+}
+
+#list_text_container_school {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#list_text_container_school:hover {
+    background-color: #f7be16;
+    color: white;
+}
+
+#list_text_container_friends {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#list_text_container_friends:hover {
+    background-color: #00818a;
+    color: white;
 }
 
 @media only screen and (min-width:621px) {
