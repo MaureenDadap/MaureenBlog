@@ -43,6 +43,7 @@ body {
 #right_header {
     padding: 20px;
     border-bottom-right-radius: 40% 80%;
+    z-index: 2;
 }
 
 .column {
@@ -62,6 +63,7 @@ body {
     height: 100vh;
     background-color: #f6d365;
     overflow-y: auto;
+    position: relative;
 }
 
 .btn {
@@ -172,6 +174,7 @@ ul {
     margin-left: 5vw;
     margin-top: -19vw;
     margin-right: 10px;
+    z-index: 1;
 }
 
 #right_container_header {
