@@ -1,6 +1,9 @@
+body {
+    margin: 0;
+}
+
 #header {
     background-color: #444444;
     padding: 15px;
-    margin: 0px;
     text-align: center;
 }
