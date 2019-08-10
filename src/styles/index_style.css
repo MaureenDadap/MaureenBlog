@@ -71,6 +71,11 @@ body {
     color: #444444;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media only screen and (min-width:621px) {
     #right {
         box-shadow: inset 22px 0px 11px -20px rgba(0, 0, 0, 0.55);
