@@ -35,11 +35,7 @@ body {
     text-align: center;
 }
 
-#top {
-    padding: 15px;
-}
-
-#bottom {
+#right_header {
     padding: 20px;
     border-bottom-right-radius: 40% 80%;
 }
