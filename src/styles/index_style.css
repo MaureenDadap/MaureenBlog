@@ -185,4 +185,9 @@ ul {
     #right {
         box-shadow: inset 0px 22px 11px -20px rgba(0, 0, 0, 0.55);
     }
+    .btn {
+        margin-right: 8px;
+        margin-left: 8px;
+        font-size: 25px;
+    }
 }
