@@ -182,7 +182,19 @@ ul {
 
 .p_container {
     width: 50%;
-    font-family: "AgengSans";
+    font-family: "WhateverItTakes";
+    color: rgb(236, 189, 189);
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#img1 {
+    padding: 20px;
+    width: 20vw;
+    height: auto;
+    align-content: center;
 }
 
 .gallery_container {
