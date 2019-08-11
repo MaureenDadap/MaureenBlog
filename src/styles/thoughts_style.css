@@ -81,6 +81,7 @@ body {
     width: 75%;
     height: 100vh;
     background-color: rgb(120, 218, 219);
+    overflow-y: auto;
 }
 
 .btn {
@@ -220,6 +221,52 @@ ul {
     height: 70vh;
     -webkit-box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
+}
+
+.body_thoughts {
+    margin-right: 9vw;
+    margin-left: 9vw;
+}
+
+#body_heading {
+    font-family: "SkinnyRegular";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.paper {
+    position: relative;
+    padding: 40px;
+    background-color: white;
+    margin: 60px auto;
+    font-family: "WhateverItTakes";
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.paper:before,
+.paper:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    box-shadow: 0 0 10px black;
+    border-radius: 50%;
+    width: 100%;
+    height: 20px;
+    display: none;
+}
+
+.top-shadow:before {
+    display: block;
+    top: 0px;
+    clip: rect(-40px auto 0 auto);
+}
+
+.bottom-shadow:after {
+    display: block;
+    bottom: 0px;
+    clip: rect(20px auto 40px auto);
 }
 
 @media only screen and (min-width:621px) {
