@@ -245,4 +245,28 @@ ul {
         margin-left: 8px;
         font-size: 25px;
     }
+    #heading_container {
+        width: 70%;
+        height: auto;
+        padding-left: 7vw;
+        padding-top: 7vw;
+        font-family: "EarwaxWit";
+        color: rgb(34, 68, 67);
+        font-size: 12vw;
+    }
+    #subtitle {
+        padding-top: 2vh;
+        padding-left: 2px;
+        font-size: 4vw;
+        font-family: "WhateverItTakes";
+        letter-spacing: 1px;
+        line-height: 2.2vh;
+    }
+    #balloon_img {
+        margin: 30px;
+        flex-grow: 1;
+        height: 20vh;
+        -webkit-box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
+    }
 }
