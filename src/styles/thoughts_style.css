@@ -33,6 +33,11 @@
     src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Chisel Mark.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "EarwaxWit";
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Earwax Wit.ttf") format("truetype");
+}
+
 html {
     height: 100%;
 }
@@ -70,7 +75,7 @@ body {
 #right {
     width: 75%;
     height: 100vh;
-    background-color: rgb(152, 220, 236);
+    background-color: rgb(120, 218, 219);
 }
 
 .btn {
@@ -182,7 +187,7 @@ ul {
     width: 70%;
     height: auto;
     padding-left: 3vw;
-    font-family: "ChiselMark";
+    font-family: "EarwaxWit";
     color: rgb(59, 92, 91);
 }
 
