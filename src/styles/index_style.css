@@ -1,26 +1,26 @@
 @font-face {
     font-family: "TimothyRegular";
-    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/Timothy-Regular.ttf") format("truetype");
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Timothy-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "SkinnyRegular";
-    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/Skinny-Regular.ttf") format("truetype");
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Skinny-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "WhateverItTakes";
-    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/whatever it takes.ttf") format("truetype");
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "LemonYellowSun";
-    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/DK Lemon Yellow Sun.otf") format("opentype");
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/DK Lemon Yellow Sun.otf") format("opentype");
 }
 
 @font-face {
     font-family: "WhateverItTakesBold";
-    src: url("https://maureendadap.github.io/MaureenBlog.github.io/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
 }
 
 html {
@@ -42,7 +42,6 @@ body {
 
 #right_header {
     padding: 20px;
-    border-bottom-right-radius: 40% 80%;
     z-index: 2;
 }
 
