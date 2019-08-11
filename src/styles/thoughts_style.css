@@ -319,4 +319,10 @@ ul {
         -webkit-box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
         box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
     }
+    #body_heading {
+        font-size: 8vw;
+    }
+    .paper {
+        font-size: 5vw;
+    }
 }
