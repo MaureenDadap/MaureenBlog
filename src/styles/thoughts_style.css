@@ -66,13 +66,9 @@ body {
 }
 
 .btn {
-    border: none;
-    background-color: inherit;
-    padding: 2px;
     margin-right: 20px;
     margin-left: 20px;
     font-size: 30px;
-    cursor: pointer;
     display: inline-block;
     font-family: "TimothyRegular";
     color: #868686;
