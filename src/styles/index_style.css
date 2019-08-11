@@ -60,7 +60,7 @@ body {
 #right {
     width: 75%;
     height: 100vh;
-    background-color: #00bdaa;
+    background-color: #00d1bc;
     overflow-y: auto;
     position: relative;
 }
@@ -193,6 +193,13 @@ ul {
     font-size: 2vw;
     line-height: normal;
     color: #303030;
+}
+
+#illustration {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: -10px;
 }
 
 @media only screen and (min-width:621px) {
