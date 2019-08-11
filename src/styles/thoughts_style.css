@@ -270,6 +270,13 @@ ul {
     clip: rect(20px auto 40px auto);
 }
 
+#illustration {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: -10px;
+}
+
 @media only screen and (min-width:621px) {
     #right {
         box-shadow: inset 22px 0px 11px -20px rgba(0, 0, 0, 0.55);
