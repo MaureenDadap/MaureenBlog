@@ -38,6 +38,11 @@
     src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Earwax Wit.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "CamiRae";
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/CamiRae-Regular.otf") format("opentype");
+}
+
 html {
     height: 100%;
 }
@@ -181,14 +186,28 @@ ul {
 #heading_thoughts {
     max-width: 100%;
     max-height: 100%;
+    height: max-content;
 }
 
 #heading_container {
     width: 70%;
     height: auto;
-    padding-left: 3vw;
+    padding-left: 4vw;
+    margin-top: -2vh;
     font-family: "EarwaxWit";
-    color: rgb(59, 92, 91);
+    color: rgb(34, 68, 67);
+    font-size: 9vw;
+}
+
+#title {
+    margin-bottom: -4vh;
+}
+
+#subtitle {
+    padding-left: 10px;
+    font-size: 1.5vw;
+    font-family: "WhateverItTakes";
+    letter-spacing: 3px;
 }
 
 #img_container {
