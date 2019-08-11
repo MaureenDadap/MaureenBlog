@@ -287,6 +287,8 @@ ul {
     }
     #right {
         box-shadow: inset 0px 22px 11px -20px rgba(0, 0, 0, 0.55);
+        overflow-y: unset;
+        height: max-content;
     }
     .btn {
         margin-right: 8px;
