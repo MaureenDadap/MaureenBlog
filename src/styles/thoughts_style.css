@@ -70,7 +70,7 @@ body {
 #right {
     width: 75%;
     height: 100vh;
-    background-color: #88D0CE;
+    background-color: rgb(83, 214, 210);
 }
 
 .btn {
@@ -191,9 +191,11 @@ ul {
 }
 
 #balloon_img {
-    padding: 30px;
+    margin: 30px;
     flex-grow: 1;
-    height: 80vh;
+    height: 70vh;
+    -webkit-box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 17px 22px 1px rgba(0, 0, 0, 0.75);
 }
 
 @media only screen and (min-width:621px) {
