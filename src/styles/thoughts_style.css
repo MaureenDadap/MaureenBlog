@@ -28,6 +28,11 @@
     src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/GoPanda.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "ChiselMark";
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Chisel Mark.ttf") format("truetype");
+}
+
 html {
     height: 100%;
 }
@@ -177,7 +182,8 @@ ul {
     width: 70%;
     height: auto;
     padding-left: 3vw;
-    font-family: GoPanda;
+    font-family: "ChiselMark";
+    color: rgb(59, 92, 91);
 }
 
 #img_container {
