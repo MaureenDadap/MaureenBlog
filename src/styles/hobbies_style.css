@@ -23,6 +23,11 @@
     src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "AgengSans";
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/agengsans.ttf") format("truetype");
+}
+
 html {
     height: 100%;
 }
@@ -158,6 +163,30 @@ ul {
 #list_text_container_friends:hover {
     background-color: #00818a;
     color: white;
+}
+
+.right_body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.p_and_gallery_container {
+    display: flex;
+}
+
+#body_heading {
+    font-family: "TimothyRegular";
+    color: white;
+    font-size: 10vw;
+}
+
+.p_container {
+    width: 50%;
+    font-family: "AgengSans";
+}
+
+.gallery_container {
+    flex-grow: 1;
 }
 
 @media only screen and (min-width:621px) {
