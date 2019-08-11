@@ -82,6 +82,7 @@ body {
     height: 100vh;
     background-color: rgb(120, 218, 219);
     overflow-y: auto;
+    position: relative;
 }
 
 .btn {
