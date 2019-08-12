@@ -1,227 +1,232 @@
-@font-face {
-    font-family: "TimothyRegular";
-    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Timothy-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "SkinnyRegular";
-    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Skinny-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "WhateverItTakes";
-    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "LemonYellowSun";
-    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/DK Lemon Yellow Sun.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "WhateverItTakesBold";
-    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "AgengSans";
-    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/agengsans.ttf") format("truetype");
-}
-
-html {
-    height: 100%;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    height: 100vh;
-}
-
-.header {
-    text-align: center;
-}
-
-#right_header {
-    padding: 20px;
-    z-index: 2;
-}
-
-.column {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    float: left;
-}
-
-#left {
-    width: 25%;
-    background-color: white;
-}
-
-#right {
-    width: 75%;
-    height: 100vh;
-    background-color: #e15249;
-    overflow-y: auto;
-    position: relative;
-}
-
-.btn {
-    margin-right: 20px;
-    margin-left: 20px;
-    font-size: 30px;
-    display: inline-block;
-    font-family: "TimothyRegular";
-    color: #642520;
-    transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-}
-
-.btn:hover {
-    color: rgb(233, 255, 32);
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style-type: none;
-    text-align: center;
-    font-family: "LemonYellowSun";
-    margin-left: -40px;
-    font-size: 20px;
-    color: #444444;
-}
-
-.list_container {
-    display: flex;
-}
-
-.list_text_container {
-    width: 95%;
-    border-bottom-style: dotted;
-    border-width: 2px;
-    border-color: #8d8d8d96;
-}
-
-.color_box {
-    flex-grow: 1;
-}
-
-#color_box_family {
-    background-color: #ffb3b3;
-}
-
-#color_box_hobbies {
-    background-color: #e15249;
-}
-
-#color_box_school {
-    background-color: #f7be16;
-}
-
-#color_box_friends {
-    background-color: #00818a;
-}
-
-#list_text_container_family {
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-#list_text_container_family:hover {
-    background-color: #ffb3b3;
-    color: white;
-}
-
-#list_text_container_hobbies {
-    background-color: #e15249;
-    color: white;
-}
-
-#list_text_container_school {
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-#list_text_container_school:hover {
-    background-color: #f7be16;
-    color: white;
-}
-
-#list_text_container_friends {
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-#list_text_container_friends:hover {
-    background-color: #00818a;
-    color: white;
-}
-
-.right_body {
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
-
-.p_and_gallery_container {
-    display: flex;
-}
-
-#body_heading {
-    font-family: "TimothyRegular";
-    color: white;
-    font-size: 10vw;
-}
-
-.p_container {
-    width: 50%;
-    font-family: "WhateverItTakes";
-    color: rgb(236, 189, 189);
-    line-height: 20px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#img1 {
-    padding: 20px;
-    width: 20vw;
-    height: auto;
-    align-content: center;
-}
-
-.gallery_container {
-    flex-grow: 1;
-}
-
-@media only screen and (min-width:621px) {
-    #right {
-        box-shadow: inset 22px 0px 11px -20px rgba(0, 0, 0, 0.55);
+    @font-face {
+        font-family: "TimothyRegular";
+        src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Timothy-Regular.ttf") format("truetype");
     }
-}
-
-@media only screen and (max-width:620px) {
-    /* For mobile phones: */
-    #left,
-    #right {
-        width: 100%;
+    
+    @font-face {
+        font-family: "SkinnyRegular";
+        src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Skinny-Regular.ttf") format("truetype");
     }
+    
+    @font-face {
+        font-family: "WhateverItTakes";
+        src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes.ttf") format("truetype");
+    }
+    
+    @font-face {
+        font-family: "LemonYellowSun";
+        src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/DK Lemon Yellow Sun.otf") format("opentype");
+    }
+    
+    @font-face {
+        font-family: "WhateverItTakesBold";
+        src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
+    }
+    
+    @font-face {
+        font-family: "AgengSans";
+        src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/agengsans.ttf") format("truetype");
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        height: 100vh;
+    }
+    
+    .header {
+        text-align: center;
+    }
+    
+    #right_header {
+        padding: 20px;
+        z-index: 2;
+    }
+    
+    .column {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    
     #left {
+        width: 25%;
+        background-color: white;
+    }
+    
+    #right {
+        width: 75%;
+        height: 100vh;
+        background-color: #e15249;
+        overflow-y: auto;
+        position: relative;
+    }
+    
+    .btn {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+        display: inline-block;
+        font-family: "TimothyRegular";
+        color: #642520;
+        transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+    }
+    
+    .btn:hover {
+        color: rgb(233, 255, 32);
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ul {
+        list-style-type: none;
+        text-align: center;
+        font-family: "LemonYellowSun";
+        margin-left: -40px;
+        font-size: 20px;
+        color: #444444;
+    }
+    
+    .list_container {
+        display: flex;
+    }
+    
+    .list_text_container {
+        width: 95%;
+        border-bottom-style: dotted;
+        border-width: 2px;
+        border-color: #8d8d8d96;
+    }
+    
+    .color_box {
+        flex-grow: 1;
+    }
+    
+    #color_box_family {
+        background-color: #ffb3b3;
+    }
+    
+    #color_box_hobbies {
+        background-color: #e15249;
+    }
+    
+    #color_box_school {
+        background-color: #f7be16;
+    }
+    
+    #color_box_friends {
+        background-color: #00818a;
+    }
+    
+    #list_text_container_family {
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+    
+    #list_text_container_family:hover {
+        background-color: #ffb3b3;
+        color: white;
+    }
+    
+    #list_text_container_hobbies {
+        background-color: #e15249;
+        color: white;
+    }
+    
+    #list_text_container_school {
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+    
+    #list_text_container_school:hover {
+        background-color: #f7be16;
+        color: white;
+    }
+    
+    #list_text_container_friends {
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+    
+    #list_text_container_friends:hover {
+        background-color: #00818a;
+        color: white;
+    }
+    
+    .right_body {
+        margin-left: 5vw;
+    }
+    
+    .p_and_gallery_container {
+        display: flex;
+    }
+    
+    #body_heading {
+        font-family: "TimothyRegular";
+        color: white;
+        font-size: 10vw;
+    }
+    
+    .p_container {
+        width: 50%;
+        font-family: "WhateverItTakes";
+        color: rgb(250, 214, 214);
+        line-height: 25px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .gallery_container {
+        flex-grow: 1;
+        margin: 10px 0px 10px 10px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: white;
+        box-shadow: 13px 15px 20px -7px rgba(0, 0, 0, 0.75);
         height: max-content;
     }
-    #right {
-        box-shadow: inset 0px 22px 11px -20px rgba(0, 0, 0, 0.55);
+    
+    iframe {
+        padding: 30px;
+        margin-left: 10px;
+        width: 100%;
+        height: 70vh;
     }
-    .btn {
-        margin-right: 8px;
-        margin-left: 8px;
-        font-size: 25px;
+    
+    @media only screen and (min-width:621px) {
+        #right {
+            box-shadow: inset 22px 0px 11px -20px rgba(0, 0, 0, 0.55);
+        }
     }
-}
+    
+    @media only screen and (max-width:620px) {
+        /* For mobile phones: */
+        #left,
+        #right {
+            width: 100%;
+        }
+        #left {
+            height: max-content;
+        }
+        #right {
+            box-shadow: inset 0px 22px 11px -20px rgba(0, 0, 0, 0.55);
+        }
+        .btn {
+            margin-right: 8px;
+            margin-left: 8px;
+            font-size: 25px;
+        }
+    }

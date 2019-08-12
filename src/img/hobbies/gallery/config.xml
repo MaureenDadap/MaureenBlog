@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	resizeOnImport="false"
+	galleryTitle="imgs1"
+	backgroundColor="rgba(34,34,34,0)"
+	useThumbDots="false"
+
+>
+  <image imageURL="images/2img01.jpg"
+	thumbURL="thumbs/2img01.jpg"
+	linkURL="images/2img01.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Maureen\Desktop\Computing - MIDTERM\MaureenBlog\src\img\hobbies\2img01.jpg">
+    <title><![CDATA[2img01]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2img02.jpg"
+	thumbURL="thumbs/2img02.jpg"
+	linkURL="images/2img02.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Maureen\Desktop\Computing - MIDTERM\MaureenBlog\src\img\hobbies\2img02.jpg">
+    <title><![CDATA[2img02]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2img03.jpg"
+	thumbURL="thumbs/2img03.jpg"
+	linkURL="images/2img03.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Maureen\Desktop\Computing - MIDTERM\MaureenBlog\src\img\hobbies\2img03.jpg">
+    <title><![CDATA[2img03]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2img04.jpg"
+	thumbURL="thumbs/2img04.jpg"
+	linkURL="images/2img04.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Maureen\Desktop\Computing - MIDTERM\MaureenBlog\src\img\hobbies\2img04.jpg">
+    <title><![CDATA[2img04]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2img05.jpg"
+	thumbURL="thumbs/2img05.jpg"
+	linkURL="images/2img05.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Maureen\Desktop\Computing - MIDTERM\MaureenBlog\src\img\hobbies\2img05.jpg">
+    <title><![CDATA[2img05]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2img06.jpg"
+	thumbURL="thumbs/2img06.jpg"
+	linkURL="images/2img06.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\Maureen\Desktop\Computing - MIDTERM\MaureenBlog\src\img\hobbies\2img06.jpg">
+    <title><![CDATA[2img06]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
