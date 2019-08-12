@@ -23,6 +23,11 @@
     src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/whatever it takes bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Varsity";
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/varsity_regular.ttf") format("truetype");
+}
+
 html {
     height: 100%;
 }
