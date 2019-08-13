@@ -160,6 +160,33 @@ ul {
     color: white;
 }
 
+.right_body {
+    margin-left: 5vw;
+}
+
+#body_heading {
+    font-family: "TimothyRegular";
+    color: #775454;
+    font-size: 10vw;
+}
+
+.img_container {
+    background-color: white;
+    padding: 20px;
+    width: 30vw;
+    box-shadow: 0px 27px 30px -21px rgba(0, 0, 0, 0.75);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.par {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: justify;
+    font-family: "WhateverItTakes";
+    font-size: 25px;
+}
+
 @media only screen and (min-width:621px) {
     #right {
         box-shadow: inset 22px 0px 11px -20px rgba(0, 0, 0, 0.55);
