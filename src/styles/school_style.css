@@ -28,6 +28,11 @@
     src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/varsity_regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "ChiselMark";
+    src: url("https://maureendadap.github.io/MaureenBlog/src/styles/fonts/Chisel Mark.ttf") format("truetype");
+}
+
 html {
     height: 100%;
 }
@@ -46,7 +51,6 @@ body {
 
 #right_header {
     padding: 20px;
-    border-bottom-right-radius: 40% 80%;
     z-index: 2;
 }
 
@@ -66,6 +70,7 @@ body {
     width: 75%;
     height: 100vh;
     background-color: #f7be16;
+    overflow-y: auto;
     position: relative;
 }
 
@@ -164,10 +169,30 @@ ul {
     color: white;
 }
 
+.right_body_heading {
+    text-align: center;
+    font-family: "Varsity";
+    font-size: 8vw;
+    color: #272626;
+}
+
+#subtitle {
+    font-family: "WhateverItTakes";
+    font-size: 30px;
+    margin-top: -0.5vh;
+}
+
+.mission_vision {
+    text-align: center;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
 #nu_laguna_img {
     width: 100%;
     height: auto;
     margin-bottom: -10px;
+    margin-top: -40px;
 }
 
 @media only screen and (min-width:621px) {
