@@ -38,7 +38,6 @@ html {
 
 body {
     margin: 0;
-    height: 100vh;
 }
 
 .header {
@@ -163,6 +162,12 @@ ul {
 #list_text_container_friends:hover {
     background-color: #00818a;
     color: white;
+}
+
+#nu_laguna_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
 }
 
 @media only screen and (min-width:621px) {
