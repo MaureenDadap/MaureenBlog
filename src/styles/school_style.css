@@ -186,13 +186,17 @@ ul {
     text-align: center;
     padding-left: 7vw;
     padding-right: 7vw;
+    color: #272626;
+    font-family: "WhateverItTakesBold";
+    font-size: 25px;
+    line-height: 5vh;
 }
 
 #nu_laguna_img {
     width: 100%;
     height: auto;
     margin-bottom: -10px;
-    margin-top: -40px;
+    margin-top: -40vh;
 }
 
 @media only screen and (min-width:621px) {
